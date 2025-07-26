@@ -305,10 +305,10 @@
         </div>
 
         <!-- FAQ Accordion -->
-        <div class="border-b-3 border-neutral-grey pb-4">
+        <div class="border-b-3 border-neutral-grey pb-4" id="featureBtn">
           <button
             data-dropdown-toggle
-            id="dropdownBtn1"
+            id="dropdownBtn"
             class="w-full flex justify-between items-center mt-16 cursor-pointer"
             aria-expanded="false"
             aria-controls="faq1"
@@ -344,7 +344,7 @@
         <div class="border-b-3 border-neutral-grey pb-4">
           <button
             data-dropdown-toggle
-            id="dropdownBtn2"
+            id="dropdownBtn"
             class="w-full flex justify-between items-center mt-4 cursor-pointer"
             aria-expanded="false"
             aria-controls="faq2"
@@ -383,7 +383,7 @@
         <div class="border-b-3 border-neutral-grey pb-4">
           <button
             data-dropdown-toggle
-            id="dropdownBtn3"
+            id="dropdownBtn"
             class="w-full flex justify-between items-center mt-4 cursor-pointer"
             aria-expanded="false"
             aria-controls="faq3"
@@ -420,7 +420,7 @@
         <div class="border-b-3 border-neutral-grey pb-4">
           <button
             data-dropdown-toggle
-            id="dropdownBtn4"
+            id="dropdownBtn"
             class="w-full flex justify-between items-center mt-4 cursor-pointer"
             aria-expanded="false"
             aria-controls="faq4"
@@ -726,7 +726,7 @@
         const content = button.nextElementSibling;
         const arrow = button.querySelector("svg");
         const path = button.querySelector("path");
-        const isExpanded = !content.classList.contains("max-h-0");
+        const isExpanded = content.classList.contains("max-h-0");
 
         content.classList.toggle("max-h-0", !isExpanded);
         content.classList.toggle("opacity-0", !isExpanded);
