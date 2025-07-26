@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-> LiveSiteUrl: **Bookmark LandingPage** on [GitHub Pages](https://thyuhtooaungowo.github.io/Bookmark_LandingPage/)
+> LiveSiteUrl: **Bookmark LandingPage** on [Vercel](https://bookmark-landing-page-six-jet.vercel.app//)
 
 ### Built with
 
